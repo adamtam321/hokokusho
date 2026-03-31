@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "TimesNewRoman";
+    src: url(font/TimesNewRoman/timesnewroman.ttf);
+}
+
+@font-face {
+    font-family: "TimesNewRomanItalic";
+    src: url(font/TimesNewRoman/timesnewromanitalic.ttf);
+}
+
+@font-face {
+    font-family: "TimesNewRomanBold";
+    src: url(font/TimesNewRoman/timesnewromanbold.ttf);
+}
+
+@font-face {
+    font-family: "TimesNewRomanBoldItalic";
+    src: url(font/TimesNewRoman/timesnewromanbolditalic.ttf);
+}
+
+.content .container-fluid .update-share_kn .update-share_kn_btn {
+    font-size: 24px;
+    margin-left: 50%;
+}
+
+.content .container-fluid .card-body .share_experience_table,
+.users_table {
+    background-color: #1969d64f;
+    text-align: center;
+}
+
+.user_table_down,
+.share_experience_table_down {
+    text-align: center;
+}
+
+.navr_aside .navr_title {
+    margin-left: 10px;
+}
