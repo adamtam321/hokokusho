@@ -1,0 +1,45 @@
+# System / Log files
+.DS_Store
+*.DS_Store
+Thumbs.db
+*.log
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# IDE / Editor
+.idea/
+.vscode/
+.vs/
+nbproject/
+nbproject/private/
+
+# Node / Bower
+node_modules/
+bower_components/
+
+# Local config / secrets
+.env
+.env.*
+config.local.php
+Model/DBconnect.php
+
+# Third-party source bundles not needed in public repo
+AdminLTE-master/
+TemplateLoginAdmin/
+PHPMailer-master/
+PHPMailer-master.zip
+View/web/page/PHPMailer/PHPMailer-master/
+
+# Risky commercial fonts
+public/assets/web/font/TimesNewRoman/
+
+# Images / assets to review before public upload
+public/assets/admin/login/images/
+public/assets/web/image/
+
+# Cache / temp
+.sass-cache/
+.cache/
